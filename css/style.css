@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background: #b78f8f;
+}
+.main_menu {
+  width: 400px;
+  height: 180px;
+  border-radius: 4px;
+  margin-left: 150px;
+  margin-top: 50px;
+  background: #ccc;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.main_menu .input {
+  width:90%;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #861c1c;
+}
+.main_menu .button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #861c1c;
+  background: #861c1c;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-left: 250px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.button:active {
+   background: #b78f8f;
+}
+.result_cart {
+  width: 400px;
+  height: 180px;
+  border-radius: 4px;
+  background: #861c1c;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+}
+.result_cart h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  line-height: 60px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #6c4848;
+}
+.result {
+  width: 400px;
+  background: #861c1c;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
